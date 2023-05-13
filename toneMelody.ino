@@ -1,20 +1,3 @@
-/*
-  Melody
-
-  Plays a melody
-
-  circuit:
-  - 8 ohm speaker on digital pin 8
-
-  created 21 Jan 2010
-  modified 30 Aug 2011
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody
-*/
-
 #include "pitches.h"
 byte previousState=1, presentState=1, songNumber=10;
 const int buttonPin = 2;     // the number of the pushbutton pin
